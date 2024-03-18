@@ -10,7 +10,7 @@ const ListarMembership = ({ membership }) => {
     const [data, setData] = useState([]);
 
     const URL_HOST =
-        "https://3b58-2800-e2-b380-32c0-a84a-9edc-5847-f5d8.ngrok-free.app/congratulation";
+        "https://bbwlovejadevegas.com/congratulation";
     const LLAVE_IDENTIDAD = "dmYmWuK9vCltWzCjn-vLV6RUtaJRwUNm2ZunLlIksAo";
     const LLAVE_SECRETA = "M5ko4UZlLtkiSE6VBaf0gw";
 

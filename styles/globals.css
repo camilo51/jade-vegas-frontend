@@ -315,7 +315,8 @@ img {
 }
 @media (min-width: 992px){
     .membership__container{
-        padding: 5rem;
+        padding: 2.5rem 5rem;
+
     }
 }
 .membership {
@@ -332,6 +333,8 @@ img {
     .memebership__title{
         text-align: start;
         font-size: 3rem;
+        margin-bottom: auto;
+        margin-left: 2rem;
     }
 }
 .memebrships__warning{

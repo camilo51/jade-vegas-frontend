@@ -6,7 +6,7 @@ Footer
 const Layout = ({ children, title = '' }) => (
     <>
         <Head>
-            <title>BbwLoveJadeVegas - {title}</title>
+            <title>{["BbwLoveJadeVegas", title].join(" - ")}</title>
         </Head>
 
         <div className="ordenPagina">

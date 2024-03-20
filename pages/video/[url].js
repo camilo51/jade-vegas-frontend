@@ -29,7 +29,7 @@ const Video = ({ video }) => {
     return (
         <Layout title={title}>
             <main className="mb-5">
-                <div className="video__container">
+                <div className="video__container container">
                     <div className="video__content">
                         <Image
                             src={image.data.attributes.url}

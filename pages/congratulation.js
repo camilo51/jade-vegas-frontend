@@ -12,8 +12,6 @@ const Congratulation = ({
 }) => {
     const [boldOrderId, setBoldOrderId] = useState(null);
     const { payment_status, reference_id } = resultadoBold;
-    // const [botApi, setBotApi] = useState(bot_api);
-    // const [charId, setChatId] = useState(chat_id);
 
     const [generatedLink, setGeneratedLink] = useState(
         resultadoTelegram.result

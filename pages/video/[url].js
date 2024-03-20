@@ -28,7 +28,7 @@ const Video = ({ video }) => {
     ));
     return (
         <Layout title={title}>
-            <main>
+            <main className="mb-5">
                 <div className="video__container">
                     <div className="video__content">
                         <Image

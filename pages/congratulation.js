@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Script from "next/script";
 import { useEffect, useState } from "react";
 import Layout from "../components/layouts";
@@ -116,12 +115,6 @@ const Congratulation = ({
 
     return (
         <Layout title="Congratulation">
-            <Head>
-                <link
-                    rel="stylesheet"
-                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-                />
-            </Head>
             {contenido}
             <Script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" />
         </Layout>

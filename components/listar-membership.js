@@ -47,7 +47,7 @@ const ListarMembership = ({ membership }) => {
     }, [price, title]);
 
     return (
-        <div className="membership">
+        <div className="membership ">
             <h3 className="memebership__title">{title}</h3>
             <div className="membership__container">
                 {data.map((membresiaData, index) => {

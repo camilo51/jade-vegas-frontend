@@ -5,7 +5,7 @@ const Memberships = ({memberships}) => {
     return (
         <Layout title="Memberships">
             <Script src="https://checkout.bold.co/library/boldPaymentButton.js" /> 
-            <main className="container memberships">
+            <main className="container memberships mb-5">
                 <h2 className="memberships__heading">Memberships</h2>
                 <div className="memberships__container">
                     {memberships.map((membership) => (

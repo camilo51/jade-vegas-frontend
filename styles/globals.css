@@ -334,6 +334,13 @@ img {
         font-size: 3rem;
     }
 }
+.memebrships__warning{
+    color: var(--gray);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin-block: 2rem;
+}
 .membership__container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);

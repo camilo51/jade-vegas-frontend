@@ -7,6 +7,7 @@ const Memberships = ({memberships}) => {
             <Script src="https://checkout.bold.co/library/boldPaymentButton.js" /> 
             <main className="container memberships mb-5">
                 <h2 className="memberships__heading">Memberships</h2>
+                <p className="memebrships__warning">If the purchase button does not load, please reload the page. </p>
                 <div className="memberships__container">
                     {memberships.map((membership) => (
                         <ListarMembership
